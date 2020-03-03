@@ -11,7 +11,7 @@ def initialize (name)
 @@all << self
 end
 
- def appointments(patient, date)
+ def new_appointment(patient, date)
 appointment = Appointment.new(date, patent, self)
 
  end
@@ -19,6 +19,10 @@ appointment = Appointment.new(date, patent, self)
  def patients
    @patients
  end
+
+def appointments 
+  @appointments 
+end
 
 def self.all
   @@all

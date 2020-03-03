@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def new_appointment(doctor, date)
-appointment = Appoinment.new(date, self, doctor)
+appointment = Appointment.new(date, self, doctor)
 end
 
 def doctors

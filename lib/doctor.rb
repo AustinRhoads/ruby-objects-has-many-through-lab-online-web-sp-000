@@ -12,7 +12,7 @@ def initialize (name)
 end
 
  def new_appointment(patient, date)
-appointment = Appointment.new(date, patent, self)
+appointment = Appointment.new(date, patient, self)
 
  end
 

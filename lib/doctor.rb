@@ -20,8 +20,8 @@ appointment = Appointment.new(date, patent, self)
    @patients
  end
 
-def appointments 
-  @appointments 
+def appointments
+  @appointments
 end
 
 def self.all

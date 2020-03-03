@@ -1,0 +1,27 @@
+class Doctor
+
+attr_accessor :name
+
+@@all = []
+
+def initialize (name)
+@name = name
+@patients = []
+@appointments = []
+@@all << self
+end
+
+ def appointments(patient, date)
+appointment = Appointment.new(date, patent, self)
+
+ end
+
+ def patients
+   @patients
+ end
+
+def self.all
+  @@all
+end
+
+end
